@@ -4,7 +4,13 @@ import {Page} from 'ionic-framework/ionic';
   templateUrl: 'build/pages/home/home.html',
 })
 export class HomePage {
-  constructor() {
 
-  }
+    name: string;
+    id: number;
+
+    constructor() {
+        this.name = "Baszott a kurva anyááááád!!!";
+        this.id = 3;
+    }
+
 }
